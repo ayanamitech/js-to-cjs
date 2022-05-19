@@ -1,0 +1,31 @@
+{
+  "name": "js-to-cjs",
+  "version": "1.0.0",
+  "description": "Replace JS import path to commonjs or modulejs",
+  "main": "index.js",
+  "bin": {
+    "js-to-cjs": "./j2c.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayanamitech/js-to-cjs.git"
+  },
+  "keywords": [
+    "commonjs",
+    "modulejs"
+  ],
+  "author": "AyanamiTech <ayanami0330@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayanamitech/js-to-cjs/issues"
+  },
+  "homepage": "https://github.com/ayanamitech/js-to-cjs#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  }
+}
